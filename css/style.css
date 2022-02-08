@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Noto Sans";
+    src: url(/assets/fonts/NotoSans-Regular.ttf);
+}
+
+:root{
+    --main-color: #5403BD;
+    --secondary-color: #ee5279;
+}
+
+*{
+    font-family: "Noto Sans";
+    font-size: 4vw;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/******************
+*Background colors*
+******************/
+
+.dark-bg{
+    background-color: #333;
+}
+
+.main-bg{
+    background-color: var(--main-color);
+}
+
+.secondary-bg{
+    background-color: var(--secondary-color);
+}
+
+/*****************
+*Reveal animation*
+*****************/
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/*******************
+*Dom specific stuff*
+*******************/
+.presentation-container{
+    align-self: flex-start;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ddd;
+}
+
+.background-pic{
+    align-self: flex-end;
+    position: absolute;
+    max-height: 50%;
+    max-width: 100%;
+    object-fit: contain;
+}
