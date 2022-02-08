@@ -1,25 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/cool-animations.js"></script>
-    
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
     <title>Portfolio</title>
 </head>
+
 <body>
-    <section class="dark-bg">
-        <div class="presentation-container reveal">
-            <h1 class="title">Welcome to my portfolio website!</h1>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <section class="dark-bg">
+                    <div class="presentation-container">
+                        <h1 class="title"><i class="fas fa-terminal"></i> Welcome to my portfolio website!</h1>
+                    </div>
+                    <img src="assets/images/city-4791269.svg" class="background-pic">
+                </section>
+            </div>
+            
+            <div class="swiper-slide">
+                <section class="main-bg">
+                    <p class="reveal" id="reveal-slide-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, fugiat a eligendi
+                        sunt
+                        praesentium rem illum ipsum dolorem totam id sit harum possimus omnis et dolor perspiciatis
+                        recusandae.
+                        Non, voluptatibus?</p>
+                </section>
+            </div>
+            
+            <div class="swiper-slide">
+                <section class="dark-bg"></section>
+            </div>
+
+            <div class="swiper-slide">
+                <section class="secondary-bg"></section>
+            </div>
+
         </div>
-        <img src="assets/images/city-4791269.svg" class="background-pic">
-    </section>
-    <section class="main-bg">
-        <p class="reveal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, fugiat a eligendi sunt praesentium rem illum ipsum dolorem totam id sit harum possimus omnis et dolor perspiciatis recusandae. Non, voluptatibus?</p>
-    </section>
-    <section class="dark-bg"></section>
-    <section class="secondary-bg"></section>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- JS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+
 </body>
+
 </html>
