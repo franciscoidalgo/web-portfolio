@@ -54,13 +54,14 @@ section {
     border-radius: 10px;
     max-width: 70vw;
     padding: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1.5vh;
 }
 
 @media screen and (max-width: 550px) {
     .text-container {
         max-width: 90vw;
-        margin-top: 1vh;
-        margin-bottom: 1.5vh;
+        
     }
 }
 
