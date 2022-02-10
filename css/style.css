@@ -10,6 +10,7 @@
 
 * {
     font-family: "Noto Sans";
+    color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -48,6 +49,11 @@ section {
     font-size: min(40px, 5vw);
     border-radius: 10px;
     max-width: 70vw;
+    padding: 1vw;
+}
+
+.font-small {
+    font-size: 25px;
 }
 
 .flex-columns {
@@ -60,7 +66,6 @@ section {
 .flex-rows {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -81,12 +86,32 @@ section {
     justify-content: space-between;
 }
 
+.ja {
+    justify-content: space-around;
+}
+
 .js {
     justify-content: flex-start;
 }
 
 .je {
     justify-content: flex-end;
+}
+
+.h10 {
+    height: 100%;
+}
+
+.h8 {
+    height: 80%;
+}
+
+.h2 {
+    height: 20%;
+}
+
+.mt {
+    margin-top: 10vh;
 }
 
 /******************
@@ -140,4 +165,12 @@ section {
     max-height: 50%;
     max-width: 100%;
     object-fit: contain;
+}
+
+.slide-title {
+    font-size: min(45px, 5.5vw);
+}
+
+.big-icon {
+    font-size: 8vh;
 }
