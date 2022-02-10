@@ -59,6 +59,8 @@ section {
 @media screen and (max-width: 550px) {
     .text-container {
         max-width: 90vw;
+        margin-top: 1vh;
+        margin-bottom: 1.5vh;
     }
 }
 
