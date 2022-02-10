@@ -26,6 +26,11 @@ html, body {
     min-height: min(auto, calc(var(--vh, 1vh) * 100));
 }
 
+.slide {
+    width: 100%;
+    min-height: 120vh;
+}
+
 section {
     position: relative;
     display: flex;
@@ -53,7 +58,7 @@ section {
 
 @media screen and (max-width: 550px) {
     .text-container {
-        max-width: 90 vw;
+        max-width: 90vw;
     }
 }
 
