@@ -14,9 +14,6 @@
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-
     <!-- Manifest -->
     <link rel="manifest" href="manifest.json">
 
@@ -24,101 +21,87 @@
 </head>
 
 <body>
-    <div class="swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <section class="dark-bg">
-                    <div class="presentation-container">
-                        <h1 style="font-size: max(4vw, 50px); text-align: center;"><i class="fas fa-terminal"></i>
-                            Welcome to my portfolio website!</h1>
-                    </div>
-                    <img src="assets/images/city-4791269.svg" class="background-pic">
-                </section>
-            </div>
 
-            <div class="swiper-slide">
-                <section class="main-bg">
-                    <div class="flex-rows">
-                        <div class="text-container reveal" id="reveal-slide-1">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Cum, fugiat a eligendi
-                                sunt
-                                praesentium rem illum ipsum dolorem totam id sit harum possimus omnis et dolor
-                                perspiciatis
-                                recusandae.
-                                Non, voluptatibus?
-                            </p>
-                        </div>
-                        <img src="assets/images/pp.jfif" style="border-radius: 100%; max-height: 200px;">
-                    </div>
-                </section>
-            </div>
-
-            <div class="swiper-slide">
-                <section style="background: linear-gradient(180deg, rgba(84,3,189,1) 40%, rgba(238,82,121,1) 100%);">
-                    <div class="flex-columns h10 js mt">
-                        <h1 class="slide-title">Skills</h1>
-                        <div class="flex-columns h8 ja">
-                            <div class="text-container font-small">
-                                <div class="flex-rows">
-                                    <span style="padding: 2vw;">
-                                        <i class="fas fa-code big-icon"></i>
-                                    </span>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laudantium
-                                        exercitationem consectetur dolorem quibusdam possimus fuga modi neque ex magni
-                                        harum, officia inventore, minus, deserunt nobis similique? Doloremque, eveniet
-                                        ab.
-                                        Iure fugiat, quaerat qui amet, officiis, accusamus incidunt reiciendis dolorum
-                                        tenetur veritatis quis. Debitis, eaque. Accusamus itaque ipsum non ex nam
-                                        perferendis delectus exercitationem sequi, distinctio, hic repellat nobis?
-                                        Impedit!</p>
-                                </div>
-                            </div>
-                            <div class="text-container font-small">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus quod neque nam
-                                    blanditiis ab error consectetur eos fuga non placeat dolore quasi fugiat, mollitia
-                                    laudantium! Porro ex ratione illum pariatur?
-                                    Perspiciatis quasi, cum, voluptatem a libero obcaecati illum blanditiis maxime
-                                    minus, aperiam consequuntur saepe! Non ad, vero consectetur repudiandae dolor
-                                    cupiditate nemo sunt, aut dolorem est nulla eveniet soluta maxime!</p>
-                                <span style="padding: 2vw;">
-                                    <i class="fas fa-graduation-cap big-icon"></i>
-                                </span>
-                            </div>
-                            <div class="text-container font-small">
-                                <span style="padding: 2vw;">
-                                    <i class="fas fa-user big-icon"></i>
-                                </span>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo rerum id aut.
-                                    Dolorem ea beatae iure quisquam vel, sint nemo, ut exercitationem cum amet illo
-                                    numquam quae eligendi quod?
-                                    Sed quis reiciendis nostrum delectus doloremque hic mollitia in placeat, enim
-                                    impedit dolore eveniet nihil consequuntur est dolorum recusandae, autem porro ab
-                                    illo fugiat molestiae? Consectetur veritatis nostrum suscipit molestiae.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-
-            <div class="swiper-slide">
-                <section class="secondary-bg">
-                    <div class="text-container reveal" id="reveal-slide-3">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum reiciendis mollitia tempora
-                            obcaecati? Tempore officia velit porro? In id, neque eos adipisci, laboriosam placeat aut
-                            mollitia veritatis cupiditate doloribus sunt.
-                        </p>
-                    </div>
-                </section>
-            </div>
-
+    <section class="dark-bg full-page">
+        <div class="presentation-container">
+            <h1 style="font-size: max(4vw, 50px); text-align: center;"><i class="fas fa-terminal"></i>
+                Welcome to my portfolio website!</h1>
         </div>
-        <div class="swiper-pagination"></div>
-    </div>
+        <img src="assets/images/city-4791269.svg" class="background-pic">
+    </section>
+
+    <section class="main-bg full-page">
+        <div class="flex-rows">
+            <div class="text-container reveal">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cum, fugiat a eligendi
+                    sunt
+                    praesentium rem illum ipsum dolorem totam id sit harum possimus omnis et dolor
+                    perspiciatis
+                    recusandae.
+                    Non, voluptatibus?
+                </p>
+            </div>
+            <img src="assets/images/pp.jfif" style="border-radius: 100%; max-height: 200px;">
+        </div>
+    </section>
+
+    <section class="full-page flex-columns js"
+        style="background: linear-gradient(180deg, rgba(84,3,189,1) 40%, rgba(238,82,121,1) 100%); height: auto;">
+        <h1 class="slide-title">Skills</h1>
+        <div class="flex-columns ja" style="min-height: 80vh;">
+            <div class="text-container reveal font-small">
+                <span style="padding: 2vw;">
+                    <i class="fas fa-code big-icon"></i>
+                </span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laudantium
+                    exercitationem consectetur dolorem quibusdam possimus fuga modi neque ex magni
+                    harum, officia inventore, minus, deserunt nobis similique? Doloremque, eveniet
+                    ab.
+                    Iure fugiat, quaerat qui amet, officiis, accusamus incidunt reiciendis dolorum
+                    tenetur veritatis quis. Debitis, eaque. Accusamus itaque ipsum non ex nam
+                    perferendis delectus exercitationem sequi, distinctio, hic repellat nobis?
+                    Impedit!</p>
+            </div>
+            <div class="text-container reveal font-small">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus quod neque nam
+                    blanditiis ab error consectetur eos fuga non placeat dolore quasi fugiat, mollitia
+                    laudantium! Porro ex ratione illum pariatur?
+                    Perspiciatis quasi, cum, voluptatem a libero obcaecati illum blanditiis maxime
+                    minus, aperiam consequuntur saepe! Non ad, vero consectetur repudiandae dolor
+                    cupiditate nemo sunt, aut dolorem est nulla eveniet soluta maxime!</p>
+                <span style="padding: 2vw;">
+                    <i class="fas fa-graduation-cap big-icon"></i>
+                </span>
+            </div>
+            <div class="text-container reveal font-small">
+                <span style="padding: 2vw;">
+                    <i class="fas fa-user big-icon"></i>
+                </span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quo rerum id aut.
+                    Dolorem ea beatae iure quisquam vel, sint nemo, ut exercitationem cum amet illo
+                    numquam quae eligendi quod?
+                    Sed quis reiciendis nostrum delectus doloremque hic mollitia in placeat, enim
+                    impedit dolore eveniet nihil consequuntur est dolorum recusandae, autem porro ab
+                    illo fugiat molestiae? Consectetur veritatis nostrum suscipit molestiae.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="secondary-bg">
+        <div class="text-container reveal">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum reiciendis mollitia tempora
+                obcaecati? Tempore officia velit porro? In id, neque eos adipisci, laboriosam placeat aut
+                mollitia veritatis cupiditate doloribus sunt.
+            </p>
+        </div>
+    </section>
+
+
     <!-- JS -->
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/vh-helper.js"></script>
-    <script src="js/swiper.js"></script>
+    <script src="js/animation-helper.js"></script>
 
 </body>
 
