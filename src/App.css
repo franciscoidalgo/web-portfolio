@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+a {
+  text-decoration-line: underline;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cool-wave {
+  aspect-ratio: 900/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('./images/layered-waves-haikei.svg');
+}
